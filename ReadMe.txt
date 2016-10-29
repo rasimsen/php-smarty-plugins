@@ -1,0 +1,1 @@
+plugins tested under PHP Version 5.5.11 and Smarty 3.1.21
