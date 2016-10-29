@@ -1,0 +1,477 @@
+.bGray {
+	border: 3px solid #575775;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #575775;
+	font-weight: bolder;
+	width: 140px;
+}
+
+.bGray2 {
+	border: 3px solid #575775;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #575775;
+	font-weight: bolder;
+}
+
+.bNot {
+	font-size: 10px;
+	color: #575775;
+}
+
+.label {
+	font-size: 12px;
+	color: #575775;
+	text-align: left;
+}
+
+.data {
+	font-size: 12px;
+	color: #575775;
+	/*width:100px;*/
+}
+
+.data2 {
+	background-color: #FCF9C5;
+	font-size: 12px;
+	color: #575775;
+	/*width:100px;*/
+}
+
+.maintable {
+	border: solid 1px #eeeeee;
+}
+
+.baslik14kalin {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+h2 { /*padding-left:20px;
+	padding-right:20px;*/
+	height: 40px;
+	width: 95%;
+	background-image: url(../resimler/baslik_alt.gif);
+	background-repeat: repeat-x;
+}
+
+.DivBar {
+	SCROLLBAR-FACE-COLOR: #eeeeee;
+	SCROLLBAR-HIGHLIGHT-COLOR: #666666;
+	SCROLLBAR-SHADOW-COLOR: #eeeeee;
+	SCROLLBAR-3DLIGHT-COLOR: #eeeeee;
+	SCROLLBAR-ARROW-COLOR: #a1a1a1;
+	SCROLLBAR-TRACK-COLOR: #f7f7f7;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	overflow: auto;
+	height: 400px;
+}
+
+.kyHaber {
+	width: 100%;
+	height: 200px;
+}
+
+.baslik {
+	color: #575775;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.table_icerik {
+	background-color:#F2F2F0;
+	padding:3px;
+}
+
+.icerik {
+	background-color:#FFFFFF;
+	border:solid 1px #EFEEED;
+	padding:3px;
+}
+
+.haberbaslik {
+	color: #575775;
+	font-weight: bolder;
+	font-size: 12px;
+}
+
+.toolbar {
+	color: #575775;
+	font-weight: normal;
+	font-size: 10px;
+	text-decoration: underline;
+}
+
+/************ taslaksite.com admin css ********************/
+html{ height:100%;}
+body{ 	background-color:#99CCFF; 
+		/*background-image:url(../resimler/tap_bg.gif);*/ 
+		vertical-align:bottom; 
+		height:100%;
+		font-size:11px;
+		font-family: Tahoma;
+		color: #6F6F6F;
+		margin:0 0;
+		text-align:left;
+}
+.dust_sol{background-image:url(../resimler/tap0_34.gif); background-repeat:no-repeat; width:12px; height:12px;}
+.dust_sag{background-image:url(../resimler/tap0_39.gif); background-repeat:no-repeat; width:13px; height:12px;}
+.dust_bg{background-image:url(../resimler/tap0_38.gif); background-repeat:repeat-x; height:12px;}
+.dorta_sol_bg{background-image:url(../resimler/tap0_52.gif); background-repeat:repeat-y; width:12px;}
+.dorta_bg{background-color:white; height:100%; vertical-align:top;}
+.dorta_sag_bg{background-image:url(../resimler/tap0_57.gif); background-repeat:repeat-y; width:13px;}
+.dalt_sag{background-image:url(../resimler/tap0_97.gif); background-repeat:no-repeat; width:13px; height:13px;}
+.dalt_sol{background-image:url(../resimler/tap0_92.gif); background-repeat:no-repeat; width:12px; height:13px;}
+.dalt_bg{background-image:url(../resimler/tap0_96.gif); background-repeat:repeat-x; height:13px;}
+.menu_baslik a{color:#FE0101; font-size:12px; text-decoration:none;}
+.menu_body{color:#0F3251; font-size:10px; font-weight:regular;}
+input,select,textarea {
+	font-size: 11px;
+	font-family: Tahoma;
+	color: #6F6F6F;
+	padding: 3px;
+	background-color:#FFFFEF;
+	border:1px solid #CFCFCF;
+}
+table {
+	font-family: Arial;
+	font-size: 11px;
+	color: #575775;
+	text-align:left;
+	/*color:red;*/
+}
+
+.mesajTitle{
+	background-image:url(../resimler/ust_orta_bg.gif); 
+	background-repeat:repeat-x; 
+	font-size:12; 
+	font-weight:bold; 
+	color:#333333; 
+	padding:5px;
+	vertical-align:bottom;
+}
+.mesajBody{
+	padding:5px; 
+	vertical-align:middle;
+	background-color:white;
+	font-size:12; 
+	color:#666666;
+}
+.mesajBodyText{
+	vertical-align:middle;
+	font-size:12; 
+	color:#666666;
+}
+
+/*smarty plug-in kontrolleri için kullanýlacak class lar*/
+.not_null{
+	background-color:#FFE0CF;
+}
+.hata{
+	color:red;
+	background-color:#FFE0CF;
+}
+.rnumber,.rpara{
+	text-align:right;
+}
+/*aktif oldugunda*/
+.rnumber_a,.rpara_a{
+	text-align:right;
+	border:#00CC99 1px solid;
+	background-color:#FFFFCC;
+}
+.rtext,.remail,.rtarih,.rtextarea,.rcheckbox{
+	text-align:left;	
+}
+/*aktif oldugunda*/
+.rtext_a,.remail_a,.rtarih_a,.rtextarea_a,.rcheckbox_a{
+	text-align:left;
+	border:#00CC99 1px solid;
+	background-color:#FFFFCC;
+}
+
+.btn_tarih{
+	/*background-image:url(js/tarih/images/calendar.png); 
+	background-repeat:no-repeat; 
+	width:16; 
+	height:16;*/
+	cursor:pointer; padding:1px; 
+	vertical-align:text-bottom;
+	 
+}
+/************************ Oasis Sayfa Class lari *************/
+h2{ font-size:14; font-weight:bold; line-height:30px; }
+.veg_etiket {
+	background-color:#99CCFF;
+	font-size:12;
+	text-align:left;
+	font-weight:bold;
+	width:120px;
+	padding:3px;
+	}
+.veg_bas {
+	background-color:#99CCFF;
+	font-size:12;
+	text-align:left;
+	font-weight:bold;
+	width:20px;
+	padding:3px;
+	}	
+.veg_veri{
+	background-color:#FFFFFF;
+	font-size:12;
+	text-align:left;
+	font-weight:normal;
+	padding:3px;
+}	
+.veg_ayrac{
+	background-color:#99CCFF;
+	font-size:12;
+	text-align:left;
+	font-weight:bold;	
+	width:10px;
+	padding:3px;
+}
+.veg_tr{
+	border-top:1px solid #0066FF;
+	border-bottom:1px solid #0066FF;	
+}
+.veg_MouseOver{
+	border-top:1px solid #FFFF99;
+	border-bottom:1px solid #FFFF99;
+}
+.veg_Focus{
+	border:solid 1px green;
+	background-color:yellow;
+}
+
+/******* veri listemeleme class tanýmlarý **************/
+.vli_ceceve{
+	 border:1px solid #cee1f3;
+}
+.vli_label_tr{
+	background-image:url(../resimler/o_lbl_bg.gif);
+	background-repeat:repeat-x;
+}
+.vli_label{
+	vertical-align:middle;
+	text-align:center;
+	font-weight:bold;
+	color:#FFFFFF;
+	height:35px;
+	background-image:url(../resimler/o_lbl_ayrac.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+	padding-right:4px;
+}
+.vli_data{
+	vertical-align:middle;
+	text-align:left;
+	font-weight:normal;
+	color:#000000;
+	padding-right:4px;
+	height:30px;
+}
+.vli_data_a{
+	vertical-align:middle;
+	text-align:left;
+	font-weight:normal;
+	color:#FF0000;
+	padding-right:4px;
+	height:30px;
+}
+#divVLI_arama{
+	float:none;
+	border:solid 0px red;
+	padding:5px;
+	display:none;
+}
+#divVLI{
+	border:solid 0px green;
+	text-align:left;
+	padding:5px;
+	text-align:center;
+}
+#vli_nav {padding: 3px; height:30px; text-align:right; background-color:#92BCE4;}
+.vli_nav_tbl {border:1px solid #cee1f3;background-color:#92BCE4; border-top:none; text-align:center;}
+#vli_nav_td {padding: 3px; float:left;}
+
+/********** araç çubugu ************/
+.ot_ara,.ot_ileri,.ot_geri,.ot_yenile{ padding-right:2px; border-right:1px solid #ffffff}
+/********** buttonlar ******************/
+.o_a{ text-decoration:none; background-image:url(../resimler/icons/AKTIF.gif); width:16px; height:16px;}
+.o_p{ text-decoration:none; background-image:url(../resimler/icons/PASIF.gif); width:16px; height:16px;}
+.o_sil{ text-decoration:none; background-image:url(../resimler/icons/delete_16.gif); width:16px; height:16px;}
+
+
+/********************************** upload smarty plugin ************************************/
+#upload{
+    font-family:'PT Sans Narrow', sans-serif;
+    background-color:#373a3d;
+
+    background-image:-webkit-linear-gradient(top, #373a3d, #313437);
+    background-image:-moz-linear-gradient(top, #373a3d, #313437);
+    background-image:linear-gradient(top, #373a3d, #313437);
+
+    width:250px;
+    padding:30px;
+    border-radius:3px;
+
+    margin:200px auto 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#drop{
+    background-color: #2E3134;
+    padding: 40px 50px;
+    margin-bottom: 30px;
+    border: 20px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    border-image: url('../img/border-image.png') 25 repeat;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size:16px;
+    font-weight:bold;
+    color:#7f858a;
+}
+
+#drop a{
+	background-color: #003366;
+	padding: 12px 26px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 2px;
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 12px;
+	line-height: 1;
+}
+
+#drop a:hover{
+	background-color: #003366;
+}
+
+#drop input{
+    display:none;
+}
+
+#upload ul{
+    list-style:none;
+    margin:0 -30px;
+    border-top:1px solid #2b2e31;
+    border-bottom:1px solid #3d4043;
+}
+
+#upload ul li{
+
+    background-color:#333639;
+
+    background-image:-webkit-linear-gradient(top, #333639, #303335);
+    background-image:-moz-linear-gradient(top, #333639, #303335);
+    background-image:linear-gradient(top, #333639, #303335);
+
+    border-top:1px solid #3d4043;
+    border-bottom:1px solid #2b2e31;
+    padding:15px;
+    height: 52px;
+
+    position: relative;
+}
+
+#upload ul li input{
+    display: none;
+}
+
+#upload ul li p{
+    width: 144px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #EEE;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+#upload ul li i{
+    font-weight: normal;
+    font-style:normal;
+    color:#7f7f7f;
+    display:block;
+}
+
+#upload ul li canvas{
+    top: 15px;
+    left: 32px;
+    position: absolute;
+}
+
+#upload ul li span{
+    width: 15px;
+    height: 12px;
+    background: url('../img/icons.png') no-repeat;
+    position: absolute;
+    top: 34px;
+    right: 33px;
+    cursor:pointer;
+}
+
+#upload ul li.working span{
+    height: 16px;
+    background-position: 0 -12px;
+}
+
+#upload ul li.error p{
+    color:red;
+}
+
+#tzine-download{
+	opacity: 0.9;
+	background-color: #003366;
+	font-size: 11px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 150px;
+	height: 28px;
+	line-height: 28px;
+	text-decoration: none !important;
+	display: inline-block;
+	border-radius: 2px;
+	color: #fff !Important;
+	font-weight: bold;
+	box-shadow: 0 -1px 2px #1e5e74 inset;
+	border-top: 1px solid #26849c;
+	text-shadow: 1px 1px 1px #1e6176;
+	margin-top: 6px;
+}
+
+#tzine-download:hover{
+    opacity:1;
+}
+
+#tzine-actions{
+    position:absolute;
+    top:0;
+    width:500px;
+    right:50%;
+    margin-right:-420px;
+    text-align:right;
+}
+
+#tzine-actions iframe{
+    display: inline-block;
+    height: 21px;
+    width: 95px;
+    position: relative;
+    float: left;
+    margin-top: 11px;
+}
+/********************************** end:upload smarty plugin ************************************/
+
+
